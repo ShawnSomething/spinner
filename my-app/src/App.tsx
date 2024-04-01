@@ -60,7 +60,7 @@ function App() {
         <Counter count={count} />
         <img src={positions[positionId]} style={imageStyle} alt="robot"/>
         <Button onClick={handleButtonClick}/>
-        <Comments comment={randomComment}/>
+        <Comments comment={randomComment}/> //hope this works
     </main>
   );
 }
